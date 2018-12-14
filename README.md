@@ -2,7 +2,7 @@
 
 ![oci-arangodb](https://www.arangodb.com/wp-content/uploads/2016/05/ArangoDB_logo_@3.png "ArangoDB logo")
 
-Terraform module for deploying a single node ArangoDB instance.
+Terraform module for deploying a single node (ArangoDB)[https://www.arangodb.com/] instance.
   
 ## Prerequisites
 First off you'll need to do some pre deploy setup.  That's all detailed [here](https://github.com/cloud-partners/oci-prerequisites).
