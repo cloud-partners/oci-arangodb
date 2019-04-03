@@ -54,7 +54,9 @@ After that, you can simply browse to (http://localhost:8529). You can find the u
 Example:
 
 `ArangoDB Password = fRAaF6Nx&9`
+
 `ArangoDB Username = root`
+
 `ArangoDB VM public IP = 132.145.162.244`
 
 ![](./images/arangodb-login.png)
