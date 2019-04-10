@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Disable local firewall
+# Disable firewall
 service firewalld stop
 chkconfig firewalld off
 
