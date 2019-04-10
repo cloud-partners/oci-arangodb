@@ -1,5 +1,5 @@
 data "template_file" "arangodb" {
-  template = "${file("templates/arangodb.sh")}"
+  template = "${file("../templates/arangodb.sh")}"
 
   vars {
     password = "${local.password}"

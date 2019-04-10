@@ -9,7 +9,7 @@ First off you'll need to do some pre deploy setup.  That's all detailed [here](h
 Now, you'll want a local copy of this repo.  You can make that with the commands:
 
     git clone https://github.com/oci-quickstart/oci-arangodb.git
-    cd oci-arangodb
+    cd oci-arangodb/terraform
     ls
 
 That should give you this:
