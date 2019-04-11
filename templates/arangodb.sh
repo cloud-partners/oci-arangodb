@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Disable firewall
-service firewalld stop
-chkconfig firewalld off
+firewall-offline-cmd --add-port=8529/tcp
+systemctl restart firewalld
 
 # Install ArangoDB
 cd /etc/yum.repos.d/
