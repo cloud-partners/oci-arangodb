@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Disable firewall
+# Configure firewall
 firewall-offline-cmd --add-port=8529/tcp
 systemctl restart firewalld
 
