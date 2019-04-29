@@ -7,7 +7,7 @@ systemctl restart firewalld
 # Install ArangoDB
 cd /etc/yum.repos.d/
 curl -OL https://download.arangodb.com/arangodb34/RPM/arangodb.repo
-yum -y install arangodb3-3.4.4
+yum -y install arangodb3-3.4.5
 
 systemctl stop arangodb3.service
 
