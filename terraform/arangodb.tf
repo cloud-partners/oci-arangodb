@@ -10,7 +10,7 @@ resource "oci_core_instance" "ArangoDB" {
   count               = "${var.NumInstances}"
   availability_domain = "${lookup(data.oci_identity_availability_domains.ADs.availability_domains[var.availability_domain - 1],"name")}"
   compartment_id      = "${var.compartment_ocid}"
-  display_name        = "ArangoDB-${count.index}"
+  display_name        = "SomeName-${count.index}"
   shape               = "${var.instance_shape}"
 
   create_vnic_details {
