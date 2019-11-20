@@ -2,13 +2,13 @@
 This is a Terraform module that deploys [ArrangoDB](https://www.arangodb.com/) on [Oracle Cloud Infrastructure (OCI)](https://cloud.oracle.com/en_US/cloud-infrastructure). They are developed jointly by Oracle and ArrangoDB.
 
 ## Prerequisites
-First off you'll need to do some pre deploy setup.  That's all detailed [here](https://github.com/oracle/oci-prerequisites).
+First off you'll need to do some pre deploy setup.  That's all detailed [here](https://github.com/oracle-quickstart/oci-prerequisites).
 
 ## Clone the Module
 Now, you'll want a local copy of this repo.  You can make that with the commands:
 
-    git clone https://github.com/oracle/oci-quickstart-arangodb.git
-    cd oci-quickstart-arangodb/terraform
+    git clone https://github.com/oracle-quickstart/oci-arangodb.git
+    cd oci-arangodb/terraform
     ls
 
 That should give you this:
